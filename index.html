@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center" >
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJSyZDV20KyJ_dX9umR64JrRDspSGci0PgNw&s" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
+                    <img src="https://assets.goal.com/images/v3/bltf2dce6f9859647ea/GettyImages-1810454339.jpg?auto=webp&format=pjpg&width=3840&quality=60" class="mb-3" width="400"
+                        height="278" loading="lazy">
+                    <a href="#realmadrid"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+                <img src="https://abcdoabc.com.br/wp-content/uploads/2024/02/bellingham-525x350.jpg" alt="A imagem mostra Jude Bellingham celebrando vitória do Real Madrid sobre o Manchester City" title="Jude Bellingham - CC0 Domínio Público / Acervo Arquivo Nacional" class="img-fluid img-inicio">
+
+              </div>
+        </section>
+
+        <section id="Jude Bellingham" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre Jude Bellingham">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="https://monitordomercado.com.br/wp-content/uploads/2024/11/Jude-Bellingham2-1024x576-1.jpg" class="rounded-pill" width="299" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Quem é Jude Bellingham?</h2>
+                    <p class="p-2">Jude Bellingham é um meio-campista inglês, nascido em 29 de junho de 2003, e considerado um dos maiores talentos do futebol mundial. Começou sua carreira no Birmingham City, passou pelo Borussia Dortmund e atualmente joga pelo Real Madrid, onde rapidamente se destacou como um dos pilares do time. Pela seleção da Inglaterra, atua desde jovem e foi destaque na Copa do Mundo de 2022. Com técnica, força e visão de jogo, Bellingham é apontado como um dos nomes mais promissores da sua geração. Fonte: Wikipedia</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/06/jude-bellingham-celebra-gol-real-madrid-vs-pachuca-e1750632732658.jpg?w=1200&h=1200&crop=1"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://images.impresa.pt/olimpia/2024-04-08-Jude-Bellingham.jpg-b5b44476/original" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                </div>
+                <div class="row mt-4  justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="https://lncimg.lance.com.br/cdn-cgi/image/width=950,quality=75,fit=pad,format=webp/uploads/2024/06/000_34UN4MZ-scaled-aspect-ratio-512-320.jpg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2025/07/02085246/Jude-Bellingham-Real-Madrid-2.jpg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+  
+</body>
+
+</html>
